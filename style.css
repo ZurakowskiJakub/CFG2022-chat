@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background-color: #eeeeee;
+    font-family: "Calibri", "Arial";
+}
+
+h1 {
+    text-align: center;
+}
+
+.chat-bubble {
+    background-color: #eeeeee;
+    border-radius: 1em;
+    margin: 0.5em 0.25em;
+    padding: 0.5em;
+}
+
+#chatBox {
+    margin: 1em 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 0.5em;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+
+#chatBox .msg {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#chatBox .msg-timestamp {
+    font-size: 0.65em;
+    font-style: italic;
+}
+
+#chatBox p {
+    height: 100%;
+}
+
+#chatBox .msg-timestamp {
+    align-self: flex-end;
+}
+
+#chatBox .msg-content {
+    align-self: center;
+}
+
+#chatBox .msg-user {
+    align-self: flex-start;
+}
+
+#inputBox {
+    margin: 1em 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 0.5em;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#inputBox * {
+    padding: 1em;
+    outline: none;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+
+#inputBox #msgInput {
+    width: 50%;
+}

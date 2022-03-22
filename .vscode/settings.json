@@ -1,0 +1,6 @@
+{
+    "editor.formatOnSave": true,
+    "yaml.schemas": {
+        "https://json.schemastore.org/prettierrc.json": "file:///c%3A/Users/Jakub/Desktop/Code%20First%20Girls%202022/CFG2022-chat/.prettierrc"
+    }
+}
